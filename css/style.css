@@ -61,7 +61,7 @@ legend{
 .logo{
 	width: 179px;
 	height: 70px;
-	/*float: left;*/
+	float: left;
 }
 .logo a {
 	display: inline-block;
@@ -69,4 +69,33 @@ legend{
 	height: 100%;
 	width: 159px;
 	background: url("../images/topbar.png") no-repeat 0px 0px;
+}
+
+.nav{
+
+}
+
+.nav li{
+	float: left;
+	height: 70px;
+	line-height: 70px;
+	padding: 0 19px;
+	font-size: 14px;
+	position: relative;
+}
+.nav li a:hover {
+	text-decoration: none;
+}
+.nav li.fst a{
+	color: #fff;
+}
+
+li span.hot{
+	width: 28px;
+	height: 19px;
+	top: 20px;
+	left: 96px;
+	position: absolute;
+	display: inline-block;
+	background: url(../images/topbar.png) no-repeat -192px 0px;
 }
