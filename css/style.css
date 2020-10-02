@@ -98,18 +98,98 @@ li span.hot{
 	display: inline-block;
 	background: url(../images/topbar.png) no-repeat -192px 0px;
 }
-.search-btn .srh-relative{
-	position: absolute;
-	background: #fff;
-	width: 158px;
-	height: 32px;
-	
-	border-radius: 32px;
-	top:20px;
-}
 
 .search-btn{
-	float: left;
+	float: right;
 	width: 158px;
 	height: 32px;
+	position: relative;
+	zoom:1;
+}
+
+.search-btn .srh-relative{
+	margin-top:20px;
+
+
+	/*------重要！为了不使父元素和子元素合并边距，以下三者都可------------*/
+	/*float: left;*/
+	position: absolute;
+	/*overflow: hidden;*/
+	width: 158px;
+	height: 32px;
+	background: url(../images/topbar.png) no-repeat 0px -99px;
+	background-color: #fff;
+	border-radius: 32px;
+	
+}
+
+
+.srh-relative label{
+	display: block;
+	font-size: 12px;
+	color: #9b9b9b;
+	cursor: text;
+	top:8px;
+	left: 0;
+	width: 90%;
+}
+span.parent{
+	display: block;
+	position: relative;
+	margin: 8px 0 0 30px;
+}
+.parent input{
+	color: #333;
+	line-height: 16px;
+	width: 95px;
+	margin: 0;
+	padding: 0;
+	background: transparent;
+	color: #fff;
+	border: 0;
+}
+.parent label{
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 90%;
+	color: #9b9b9b;
+	cursor: text;
+}
+
+a.create{
+	float: right;
+	/*display: block;*/
+	width: 90px;
+	height: 32px;
+	border-radius: 20px;
+	color: #ccc;
+	border: 1px solid #4f4f4f;
+	font-size: 12px;
+	line-height: 33px;
+	padding:0 0 0 16px;
+	margin: 18px 0 0 12px;
+	box-sizing: border-box;
+}
+a.create:hover{
+	text-decoration: none;
+	color: #fff;
+	border: 1px solid #ccc;
+}
+
+.user{
+	float: right;
+	width: 52px;
+	height: 45px;
+	margin: 18px 0 0 21px;
+	position: relative;
+	/*padding-right: 22px;*/
+}
+.head{
+	width: 30px;
+	height: 30px;
+}
+.head img{
+	border-radius: 30px;
 }
