@@ -323,7 +323,7 @@ span.my-quit{background-position: 0 -199px;}
 	margin: 0 auto;
 }
 .caro .banner .ban{
-	width: 730px;
+	/*width: 730px;*/
 	height: 285px;
 }
 .caro .download{
@@ -333,4 +333,50 @@ span.my-quit{background-position: 0 -199px;}
 	top: 0;
 	right: 0;
 	background: url(../images/download.png) no-repeat 0 0;
+}
+
+.caro a.arrow{
+	display: block;
+	width: 37px;
+	height:63px;
+	background: url(../images/banner.png);
+	position: absolute;
+}
+.caro a.lt-arrow{
+	background-position: 0 -360px;
+	top: 110px;
+	left: -70px;
+}
+.caro a.lt-arrow:hover{
+	background-position: 0 -430px;
+}
+.caro a.rt-arrow{
+	background-position: 0 -509px;
+	top: 110px;
+	right: -70px;
+}
+.caro a.rt-arrow:hover{
+	background-position: 0 -579px;
+}
+.caro .dots{
+	position: absolute;
+	width: 730px;
+	bottom: 4px;
+	left: 0;
+	text-align: center;
+
+
+}
+.caro .dots a{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url(../images/banner.png) no-repeat 0 -342px;
+}
+.caro .dots a.first{
+	background-position: -18px -342px;
+}
+
+.caro .dots a:hover{
+	background-position: -18px -342px;
 }
