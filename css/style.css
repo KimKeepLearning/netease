@@ -203,6 +203,7 @@ a.create:hover{
 	left: -49px;
 	box-shadow: 0 8px 24px 0 rgba(0,0,0,0.5);
 	border-radius: 4px;
+	display: none;
 }
 .list-user li{
 	width: 100%;
@@ -240,4 +241,96 @@ span.my-quit{background-position: 0 -199px;}
 }
 .list-user li a:hover{
 	text-decoration: none;
+}
+.subnav{
+	height: 35px;
+	background: #c20c0c;
+	border-bottom: 1px solid #a40011;
+}
+.subnav .subnav-con{
+	width: 1100px;
+	height: 34px;
+	margin: 0 auto;
+	
+}
+.subnav ul{
+	float: left;
+	padding: 0 0 0 180px;
+}
+.subnav ul li, .subnav ul li a{
+	float: left;
+	/*width: 84px;*/
+	height: 34px;
+	text-align: center;
+	line-height: 34px;
+}
+.subnav a{
+	color:#fff;
+	font-size: 12px;
+}
+.subnav a em{
+	display: inline-block;
+	height: 20px;
+	padding:0 13px;
+	margin: 7px 17px 0; 
+	border-radius: 20px;
+	line-height: 21px;
+}
+.subnav a em.first{
+	background: #9b0909;
+}
+.subnav a em:hover{
+	background: #9b0909;
+	text-decoration: none;
+}
+.rela{
+	position: relative;
+}
+.subnav .song-list span{
+	position: absolute;
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	background: url(../images/white-r-icon@3x.png) no-repeat 0 0;
+	background-size: cover;
+}
+.subnav .tri{
+	display: inline-block;
+	position: absolute;
+	width: 12px;
+	height: 7px;
+	background: url(../images/topbar.png) -226px 0;
+	left: 38px;
+	top: -6px;
+}
+.caro {
+	background: url(../images/banner-blur-1.jpg);
+	background-size: cover;
+}
+.caro .banner{
+	width: 982px;
+	height: 285px;
+	overflow: hidden;
+}
+
+.caro .ban img{
+	width: 730px;
+	
+}
+.caro .wrap{
+	width: 982px;
+	height: 285px;
+	margin: 0 auto;
+}
+.caro .banner .ban{
+	width: 730px;
+	height: 285px;
+}
+.caro .download{
+	height: 285px;
+	width: 254px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: url(../images/download.png) no-repeat 0 0;
 }
