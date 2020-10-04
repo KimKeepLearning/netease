@@ -380,3 +380,68 @@ span.my-quit{background-position: 0 -199px;}
 .caro .dots a:hover{
 	background-position: -18px -342px;
 }
+
+.content{
+	background: url(../images/wrap1.png) repeat-y 100% 100%;
+	width: 980px;
+	border: 1px solid #d3d3d3;
+	border-width: 0 1px;
+	margin: 0 auto;
+}
+.content:after {
+    clear: both;
+    content: '.';
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.lt{
+	width: 100%;
+	float: left;
+}
+.ltbox{
+	margin: 0 251px 0 0;
+}
+.ltcontain{
+	padding: 20px 20px 40px;
+}
+
+.conhead{
+	height: 33px;
+	background: url(../images/index.png) no-repeat -225px -156px;
+	padding: 0 10px 0 34px;
+	border-bottom: 2px solid #c10d0c;
+}
+.conhead a{
+	color: #000;
+
+}
+.conhead>a{
+	float: left;
+	font-size: 20px;
+	line-height: 28px;
+
+}
+.conhead>a:hover{
+	text-decoration: none;
+}
+.conhead .tab {
+	float: left;
+	font-size: 12px;
+	margin: 7px 0 0 20px;
+}
+.conhead .line{
+	color: #ccc;
+	margin: 0 10px;
+}
+.conhead .more {
+	float: right;
+	font-size: 12px;
+	margin: 9px 0 0 0;
+}
+.conhead .more span {
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	background: url(../images/index.png) no-repeat 0 -240px;
+}
