@@ -519,3 +519,47 @@ span.my-quit{background-position: 0 -199px;}
 .ltcontain ul li p.rectitle a{
 	color: #000;
 }
+p.recsubtitle{
+	color: #999;
+	font-size: 12px;
+	width: 100%;
+}
+
+.calendar a{
+	position: relative;
+	display: block;
+	width: 140px;
+	height: 140px;
+	background: url(../images/date.png) no-repeat 0 0;
+	color: #333;
+}
+.calendar a:hover{
+	text-decoration: none;
+}
+.calendar a span.head{
+	display: block;
+	height: 33px;
+	line-height: 33px;
+	width: 100%;
+	text-align: center;
+	color: #fed9d9;
+	text-shadow: 0 -1px #962626;
+}
+.calendar a span.bd{
+	display: block;
+	width: 100%;
+	font-size: 94px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	line-height: 102px;
+}
+
+.calendar a span.mask{
+	position: absolute;
+	top: 33px;
+	left: 0;
+	width: 142px;
+	height: 107px;
+	background: url(../images/date.png) no-repeat 0 -150px;
+}
