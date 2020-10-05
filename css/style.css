@@ -388,7 +388,7 @@ span.my-quit{background-position: 0 -199px;}
 	border-width: 0 1px;
 	margin: 0 auto;
 }
-.content:after {
+.clear:after {
     clear: both;
     content: '.';
     display: block;
@@ -444,4 +444,78 @@ span.my-quit{background-position: 0 -199px;}
 	width: 12px;
 	height: 12px;
 	background: url(../images/index.png) no-repeat 0 -240px;
+}
+
+.lt-float li{
+	float: left;
+}
+
+.ltcontain ul li{
+	width: 140px;
+	height: 204px;
+	margin: 0 0 30px 42px;
+}
+
+.ltcontain ul li.first{
+	margin-left: 0;
+}
+.ltcontain ul li .recbox{
+	width: 140px;
+	height: 140px;
+}
+.mask{
+	background: url(../images/coverall.png) no-repeat 0 0;
+}
+.ltcontain ul{
+	margin: 20px 0 0 0;
+}
+
+.ltcontain ul li .recbox a.mask{
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.bottom{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 27px;
+	color: #ccc;
+	font-size: 12px;
+	background: url(../images/coverall.png) no-repeat 0 -537px;
+	/*padding: 4px 0 0 0;*/
+}
+.bottom .earcupmark{
+	display: inline-block;
+	height: 11px;
+	width: 14px;
+	background: url(../images/iconall.png) no-repeat 0 -24px;
+	margin: 9px 0 0 10px;
+}
+.bottom .playmark{
+	display: inline-block;
+	height: 17px;
+	width: 16px;
+	background: url(../images/iconall.png) no-repeat 0 0;
+	float: right;
+	margin: 6px 10px 0 0;
+}
+
+.bottom .playmark:hover{
+	
+	background-position: 0 -60px;
+	
+}
+
+.ltcontain ul li p.rectitle{
+	margin: 8px 0 3px;
+	font-size: 14px;
+}
+
+.ltcontain ul li p.rectitle a{
+	color: #000;
 }
