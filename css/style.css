@@ -11,7 +11,7 @@ table{
 	border-spacing: 0;
 
 }
-ol,ul{
+ul{
 		list-style: none;
 }
 fieldset,img{border: 0;}
@@ -618,4 +618,87 @@ p.recsubtitle{
 	background-position: -300px -75px;
 	right: 7px;
 	top: 71px;
+}
+.chart-bg{
+	height: 472px;
+	margin-top: 20px;
+	background: url(../images/index_bill.png) no-repeat;
+}
+.chart .blk{
+	float: left;
+	width: 230px;
+}
+.chart .top-name{
+	height: 100px;
+	padding: 20px 0 0 20px;
+}
+.chart .blk .cover{
+	width: 80px;
+	height: 80px;
+	float: left;
+}
+.chart .blk .cover img{
+	width: 100%;
+	height: 100%;
+}
+.chart .blk a.mask{
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: url(../images/coverall.png) no-repeat -145px -57px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.chart .blk .title{
+	float: left;
+	width: 116px;
+	margin: 6px 0 0 10px;
+
+}
+
+.chart .blk .title>a{
+	color: #000;
+	font-size: 14px;
+	font-weight: bold;
+
+}
+.chart .blk .title .btn {
+	margin: 10px 0 0 0;
+}
+.chart .blk a.play{
+	display: block;
+	width: 22px;
+	height: 22px;
+	float: left;
+	background: url(../images/index.png) no-repeat -267px -205px;
+}
+.chart .blk a.add{
+	display: block;
+	width: 22px;
+	height: 22px;
+	float: left;
+	background: url(../images/index.png) no-repeat -300px -205px;
+	margin: 0 0 0 10px;
+}
+.chart .blk dd ol{
+	height: 319px;
+	margin-left: 50px;
+	line-height: 32px;
+}
+.chart .blk dd li{
+	height: 32px;
+}
+.chart .blk dd li a{
+	color: #000;
+	font-size: 12px;
+}
+.chart .blk dd div.more{
+	height: 32px;
+	padding: 5px 4px 0 0;
+	float: right;
+}
+.chart .blk dd div.more a{
+	color: #000;
+	font-size: 12px;
 }
