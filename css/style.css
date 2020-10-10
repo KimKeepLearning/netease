@@ -396,11 +396,11 @@ span.my-quit{background-position: 0 -199px;}
     visibility: hidden;
 }
 .lt{
-	width: 100%;
+	width: 730px;
 	float: left;
 }
 .ltbox{
-	margin: 0 251px 0 0;
+	/*margin: 0 251px 0 0;*/
 }
 .ltcontain{
 	padding: 20px 20px 40px;
@@ -704,4 +704,98 @@ p.recsubtitle{
 }
 .chart .blk1{
 	width: 228px;
+}
+.rtcontain{
+	float: right;
+	width: 250px;
+}
+.rtcontain .user-profile{
+	padding: 20px 0 0 20px;
+}
+.rtcontain .user-profile a.img-box{
+	display: block;
+	width: 80px;
+	height: 80px;
+	padding: 2px;
+	background: #fff;
+	/*box-sizing: border-box;*/
+	border: 1px solid #dadada;
+	float: left;
+}
+.rtcontain .user-profile .info{
+	float: left;
+	width: 115px;
+	margin:  0 0 0 18px;
+}
+.rtcontain .user-profile .info a{
+	color: #000;
+	font-size: 14px;
+	font-weight: bold;
+}
+.rtcontain .user-profile .info a.level{
+	display: inline-block;
+	height: 17px;
+	line-height: 18px;
+	color: #999;
+	font-style: italic;
+	font-size: 12px;
+	padding-left: 25px;
+	overflow: hidden;
+	background: url(../images/icon2.png) no-repeat -130px -64px;
+}
+
+.rtcontain .user-profile .info i{
+	float: right;
+	width: 8px;
+	height: 17px;
+	background: url(../images/icon2.png) no-repeat -192px -64px;
+}
+.rtcontain .user-profile .info .lv{
+	margin-top: 5px;
+}
+.rtcontain .user-profile .info .arrbtn{
+	margin-top: 15px;
+}
+.rtcontain .user-profile .info .arrbtn a{
+	display: inline-block;
+	width: 76px;
+	height: 31px;
+	line-height: 31px;
+	vertical-align: top;
+	text-align: center;
+	color: #bebebe;
+	background: url(../images/button2.png) 0px -305px;
+	padding-left:8px;
+}
+.rtcontain .user-profile .info .arrbtn a i{
+	height: 31px;
+	background: url(../images/button2.png) right -346px;
+}
+.rtcontain .user-profile ul{
+	float: left;
+	margin:22px 0 0 0;
+}
+.rtcontain .user-profile ul li.first{
+	padding-left: 0;
+}
+.rtcontain .user-profile ul li{
+	float: left;
+	display: inline-block;
+	height: 40px;
+	border-right: 1px solid #e4e4e4;
+	padding: 0 18px;
+}
+.rtcontain .user-profile ul li.last{
+	border-right: 0;
+}
+.rtcontain .user-profile ul li a{
+	color: #666;
+}
+.rtcontain .user-profile ul li a strong{
+	display: block;
+	font-size: 20px;
+	font-weight: normal;
+}
+.rtcontain .user-profile ul li a span{
+	font-size: 12px;
 }
