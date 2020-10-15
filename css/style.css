@@ -859,3 +859,27 @@ p.recsubtitle{
 	background: url(../images/button2.png) no-repeat right -100px;
 	margin-top: 14px;
 }
+.rtcontain .hotpost{
+	margin: 30px 0 0 0;
+}
+.rtcontain .hotpost ul li.clear{
+	background-color:#fff;
+	border-color: #fff;
+}
+.rtcontain .hotpost ul li.clear p{
+	float: left;
+	margin: 2px 0 2px 10px;
+}
+.rtcontain .hotpost ul p.name{
+	font-size: 12px;
+	font-weight: normal;
+	color: #000;
+	/* margin-bottom: 4px; */
+
+}
+.rtcontain .hotpost ul p.name span.v{
+	display: inline-block;
+	width: 11px;
+	height: 13px;
+	background: url(../images/icon.png) no-repeat 0 1px;
+}
